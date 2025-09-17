@@ -1,0 +1,29 @@
+/* Scope all overrides to the dark theme class only */
+.ag-theme-quartz-dark {
+  /* Typography */
+  --ag-font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --ag-font-size: 12px;
+
+  /* Core colors */
+  --ag-foreground-color: #e6e6e6;
+  --ag-background-color: #1f2230;
+  --ag-secondary-foreground-color: #c8c8c8;
+  --ag-data-color: #e6e6e6;
+
+  /* Borders */
+  --ag-border-color: #3a3f55;
+
+  /* Headers */
+  --ag-header-foreground-color: #e6e6e6;
+  --ag-header-background-color: #2a2e3f;
+
+  /* Rows */
+  --ag-odd-row-background-color: #1b1e2b;
+  --ag-row-hover-color: #2f3448;
+  --ag-selected-row-background-color: #263043;
+
+  /* Panels & controls */
+  --ag-control-panel-background-color: #1f2230;
+  --ag-subheader-toolbar-background-color: #2a2e3f;
+  --ag-input-color: #f0f0f0;
+}

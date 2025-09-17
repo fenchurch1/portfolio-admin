@@ -1,0 +1,81 @@
+/* Force dark visuals for AG Grid Quartz when theme class is applied */
+.ag-theme-quartz-dark,
+.ag-theme-quartz-dark .ag-root-wrapper,
+.ag-theme-quartz-dark .ag-root-wrapper-body,
+.ag-theme-quartz-dark .ag-center-cols-viewport,
+.ag-theme-quartz-dark .ag-center-cols-container,
+.ag-theme-quartz-dark .ag-body-viewport {
+  background-color: #1f2230 !important;
+  color: #e6e6e6 !important;
+}
+
+/* Ensure theme variables for text colors are light */
+.ag-theme-quartz-dark {
+  --ag-foreground-color: #e6e6e6 !important;
+  --ag-data-color: #e6e6e6 !important;
+}
+
+.ag-theme-quartz-dark .ag-header,
+.ag-theme-quartz-dark .ag-header-viewport,
+.ag-theme-quartz-dark .ag-header-cell,
+.ag-theme-quartz-dark .ag-header-row {
+  background-color: #2a2e3f !important;
+  color: #e6e6e6 !important;
+}
+
+.ag-theme-quartz-dark .ag-row {
+  background-color: #1f2230 !important;
+}
+
+.ag-theme-quartz-dark .ag-row.ag-row-odd {
+  background-color: #1b1e2b !important;
+}
+
+.ag-theme-quartz-dark .ag-row:hover {
+  background-color: #2f3448 !important;
+}
+
+.ag-theme-quartz-dark .ag-selected {
+  background-color: #263043 !important;
+}
+
+/* Force cell text/icons to light so data is readable */
+.ag-theme-quartz-dark .ag-cell,
+.ag-theme-quartz-dark .ag-cell-value,
+.ag-theme-quartz-dark .ag-group-value,
+.ag-theme-quartz-dark .ag-floating-filter-input,
+.ag-theme-quartz-dark .ag-input-field-input,
+.ag-theme-quartz-dark .ag-icon {
+  color: #e6e6e6 !important;
+  fill: #e6e6e6 !important;
+}
+
+/* Borders subtle in dark */
+.ag-theme-quartz-dark .ag-cell,
+.ag-theme-quartz-dark .ag-header,
+.ag-theme-quartz-dark .ag-header-cell,
+.ag-theme-quartz-dark .ag-header-row {
+  border-color: rgba(230, 230, 230, 0.16) !important;
+}
+
+/* Pagination footer styling */
+.ag-theme-quartz-dark .ag-paging-panel {
+  background-color: #1f2230 !important;
+  color: #e6e6e6 !important;
+  border-top: 1px solid rgba(230, 230, 230, 0.16) !important;
+}
+.ag-theme-quartz-dark .ag-paging-row-summary-panel,
+.ag-theme-quartz-dark .ag-paging-page-summary-panel {
+  color: #cfd3e1 !important;
+}
+.ag-theme-quartz-dark .ag-paging-button {
+  color: #e6e6e6 !important;
+  fill: #e6e6e6 !important;
+}
+.ag-theme-quartz-dark .ag-paging-button:disabled,
+.ag-theme-quartz-dark .ag-paging-button[disabled] {
+  opacity: 0.4 !important;
+}
+.ag-theme-quartz-dark .ag-paging-button:hover:not([disabled]) {
+  background-color: #2a2e3f !important;
+}
