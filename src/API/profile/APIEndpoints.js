@@ -5,6 +5,6 @@ const APIEndpoints = {
     getAllUserDataView:`${profile.getBaseUrl()}/admin-user-view/`,
     getAllPortfolioHeaderData: `${profile.getBaseUrl()}/admin-portfolio-view/`,
     getAllPortfolioHoldingsById: `${profile.getBaseUrl()}/admin-portfolio-holdings-view/?portfolio_id={portfolio_id}`,
-    getAllPortfolioSharingView: `${profile.getBaseUrl()}/PortfolioSharingView/`,
+    getAllPortfolioSharingView: `${profile.getBaseUrl()}/admin-portfolio-sharing-view/`,
 };
 export default APIEndpoints;
